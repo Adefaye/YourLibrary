@@ -1,0 +1,26 @@
+<html>
+    <head> 
+    <title> jQuery CSS</title>
+    
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+    <body>
+        
+        <h1> jQuery CSS</h1>
+        
+        
+        <div id="circle1" class="circleShape"> Styles with CSS</div>
+        <div id="circle2"> styled with jQuery</div>
+    
+       <!-- <script src="js/jquery-3.4.1.min.js"> </script> -->
+        <!-- loads  the cdn first -->
+        <script  src="//code.jquery.com/jquery-3.4.1.min.js"> </script>
+        
+        <!-- if cdn fails to load, serve up the local version-->
+        <script> window.jQuery || document.write('<script src="js/jQuery-3.4.1.min.js"><\/script>'); </script>
+        <script src="js/script.js"> </script>
+    </body>
+
+</html>
